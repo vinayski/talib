@@ -18,4 +18,4 @@ jobs:
     - name: make install
       run: sudo make install
     - name: pip install
-      run: pip install numpy ta-lib
+      run: pip install numpy ta-lib TA-Lib
