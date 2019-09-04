@@ -17,6 +17,8 @@ jobs:
       run: make check
     - name: make install
       run: sudo make install
+    - name: Wheel install
+      run: pip install wheel && python setup.py bdist_wheel 
     - name: Numpy install
       run: pip install numpy 
     - name: TA-Lib Install
